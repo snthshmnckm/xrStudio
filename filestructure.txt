@@ -1,0 +1,31 @@
+online-course-app/
+│
+├── public/                     # Public assets (index.html, images, etc.)
+│   ├── index.html              # Main HTML file
+│   └── ...
+│
+├── src/                        # Source files
+│   ├── assets/                 # Static assets like images, fonts, etc.
+│   ├── components/             # Reusable components (Navbar, Footer, etc.)
+│   │   ├── Navbar.js
+│   │   ├── Navbar.css
+│   │   ├── CourseCard.js
+│   │   ├── CourseCard.css
+│   │   └── ...
+│   ├── pages/                  # Page components (Home, Courses, etc.)
+│   │   ├── Home.js
+│   │   ├── Courses.js
+│   │   ├── CourseDetails.js
+│   │   ├── Login.js
+│   │   ├── Signup.js
+│   │   └── Dashboard.js
+│   ├── styles/                 # Global styles
+│   │   ├── index.css           # Main CSS file
+│   │   └── ...
+│   ├── App.js                  # Main app component
+│   ├── index.js                # Entry point of the React app
+│   └── ...
+│
+├── .gitignore                  # Git ignore file
+├── package.json                # Node.js dependencies and scripts
+└── README.md                   # Project documentation
